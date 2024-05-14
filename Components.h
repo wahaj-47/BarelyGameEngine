@@ -24,7 +24,7 @@ public:
 		: circle(radius, points)
 	{
 		circle.setFillColor(fill);
-		circle.setOutline(outline);
+		circle.setOutlineColor(outline);
 		circle.setOutlineThickness(thickness);
 		circle.setOrigin(radius, radius);
 	}

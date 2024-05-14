@@ -1,0 +1,37 @@
+﻿  Game.cpp
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(124,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(124,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(124,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(125,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(125,27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(125,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(127,118): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(127,98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(127,173): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(127,153): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(127,139): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(127,84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(141,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(142,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(383,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(383,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(417,51): warning C4244: '=': conversion from 'double' to 'sf::Uint8', possible loss of data
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(420,54): warning C4244: '=': conversion from 'double' to 'sf::Uint8', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xutility(265,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(2092,13): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int&,int&,sf::Color,sf::Color,int&>(_Ty &,int &,int &,sf::Color &&,sf::Color &&,int &) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CShape
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(2765,46): message : see reference to function template instantiation 'std::_Ref_count_obj2<CShape>::_Ref_count_obj2<int&,int&,_Ty,_Ty,int&>(int &,int &,_Ty &&,_Ty &&,int &)' being compiled
+          with
+          [
+              _Ty=sf::Color
+          ]
+C:\School\Misc\COMP4300\BarelyGameEngine\Game.cpp(98,24): message : see reference to function template instantiation 'std::shared_ptr<CShape> std::make_shared<CShape,int&,int&,sf::Color,sf::Color,int&>(int &,int &,sf::Color &&,sf::Color &&,int &)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xutility(265,77): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  BarelyGameEngine.vcxproj -> C:\School\Misc\COMP4300\BarelyGameEngine\x64\Debug\BarelyGameEngine.exe

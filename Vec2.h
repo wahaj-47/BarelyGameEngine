@@ -22,5 +22,7 @@ public:
 	void operator *= (const float val);
 
 	float dist(const Vec2& rhs) const;
+	float distSqrd(const Vec2& rhs) const;
+	Vec2 lerp(Vec2& rhs, float percent);
 };
 
